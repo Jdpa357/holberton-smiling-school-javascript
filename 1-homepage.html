@@ -29,9 +29,12 @@
     </script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+       
     <!-- CSS style -->
     <link rel="stylesheet" href="styles.css">
+
+    <!-- Js -->
+    <script src="scripts.js"></script>
 </head>
 
 <body>
@@ -140,53 +143,16 @@
         <!-- Carousel of quotes section -->
         <section class="container-fluid bg-hex py-5">
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-
-                
-                	<div class="container-md carousel-inner d-flex my-5">
-                	    <div class="carousel-item active">
-                	        <div class="container-fluid">
-                	            <div class="row">
-                	                <div class="col-md-3 col-sm-4 d-flex justify-content-center">
-                                        <img src="images/profile_5.jpg" class="rounded-circle mb-3" width="150" height="150">
-                	                </div>
-                	                <div class="col-md-9 col-sm-8">
-                	                    <blockquote class="blockquote">
-                	                        <p class="text-white mb-4">« Those tutorials are concise and go straight to the
-                                                point. I can’t think of a better place to learn smiling. And it’s so fun!</p>
-                                            <p class="font-weight-bold text-white mb-0">Person Name</p>
-                                            <p class="text-white font-italic font-weight-light ">weather presenter</p>
-                	                    </blockquote>
-                	                </div>
-                	            </div>
-                	        </div>
-                	    </div>
-                	    <div class="carousel-item">
-                	        <div class="container-fluid">
-                	            <div class="row">
-                	                <div class="col-md-3 col-sm-4 d-flex justify-content-center">
-                	                    <img src="images/profile_5.jpg" class="rounded-circle mb-3" width="150" height="150">
-                	                </div>
-                	                <div class="col-md-9 col-sm-8">
-                	                    <blockquote class="blockquote">
-                	                        <p class="text-white mb-4">« Those tutorials are concise and go straight to the
-                	                            point. I can’t think of a better place to learn smiling. And it’s so fun!
-                	                        </p>
-                	                        <p class="font-weight-bold text-white mb-0">Person Name</p>
-                	                        <p class="text-white font-italic font-weight-light">weather presenter</p>
-                	                    </blockquote>
-                	                </div>
-                	            </div>
-                	        </div>
-                	    </div>
-                    </div>
-                    
+                <div class="container-md carousel-inner d-flex my-5" id="quotes">
+                    <div class="carousel-item loader"></div>
+                </div>
                 <!-- Controls -->
                 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                    <span class="holberton_school-icon-arrow_4 display-1" aria-hidden="true"></span>
+                    <img src="images/arrow_white_left.png" alt="" width="30">
                     <span class="sr-only">Previous</span>
                 </a>
                 <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                    <span class="holberton_school-icon-arrow_3 display-1" aria-hidden="true"></span>
+                    <img src="images/arrow_white_right.png" alt="" width="30">
                     <span class="sr-only">Next</span>
                 </a>
             </div>
@@ -883,5 +849,4 @@
     </footer>
 
 </body>
-
 </html>
